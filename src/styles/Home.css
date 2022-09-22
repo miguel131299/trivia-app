@@ -1,0 +1,33 @@
+.home-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.home--title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home--title {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+.home--description {
+  font-size: 1.5rem;
+}
+
+.home--button {
+  position: relative;
+  bottom: 100px;
+
+  height: 80px;
+  width: 250px;
+  font-size: 2rem;
+}

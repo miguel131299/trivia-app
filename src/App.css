@@ -1,0 +1,20 @@
+body {
+  background: #f5f7fb;
+  color: #293264;
+}
+
+.standard-button {
+  background: #4d5b9e;
+  border: none;
+  color: white;
+  border-radius: 15px;
+  font-weight: 500;
+}
+
+.standard-button:hover {
+  background: #22379e;
+}
+
+.standard-button:active {
+  box-shadow: inset 10px 10px 20px -6px rgba(0, 0, 0, 0.7);
+}
