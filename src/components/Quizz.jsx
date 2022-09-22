@@ -103,7 +103,7 @@ export default function Quizz() {
         const newAnswers = questionData.answers.map((answer) => {
           if (answer.text === questionData.correct_answer) {
             if (answer.state === "selected") {
-              setScore((prevScore) => prevScore + 0.5);
+              setScore((prevScore) => prevScore + 1);
             }
             return { ...answer, state: "correct" };
           } else if (answer.state === "selected") {
